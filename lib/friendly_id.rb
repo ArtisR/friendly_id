@@ -49,6 +49,7 @@ module FriendlyId
   autoload :Scoped,     "friendly_id/scoped"
   autoload :Slugged,    "friendly_id/slugged"
   autoload :Finders,    "friendly_id/finders"
+  autoload :Globalize,  "friendly_id/globalize"
 
   # Instances of these classes will never be considered a friendly id.
   # @see FriendlyId::ObjectUtils#friendly_id
